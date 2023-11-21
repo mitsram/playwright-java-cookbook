@@ -3,10 +3,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
-import com.microsoft.playwright.*;
-
-import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
-
 public class LoginTests extends BaseTest {
 
     LoginPage loginPage;
